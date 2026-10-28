@@ -59,6 +59,7 @@ namespace tarea_2.__German
 			// 
 			// label1
 			// 
+			this.label1.ForeColor = System.Drawing.Color.Yellow;
 			this.label1.Location = new System.Drawing.Point(56, 24);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -67,6 +68,7 @@ namespace tarea_2.__German
 			// 
 			// label2
 			// 
+			this.label2.ForeColor = System.Drawing.Color.Yellow;
 			this.label2.Location = new System.Drawing.Point(56, 70);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -75,6 +77,7 @@ namespace tarea_2.__German
 			// 
 			// label3
 			// 
+			this.label3.ForeColor = System.Drawing.Color.Yellow;
 			this.label3.Location = new System.Drawing.Point(56, 115);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);

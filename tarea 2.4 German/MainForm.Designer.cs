@@ -36,6 +36,7 @@ namespace tarea_2.__German
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.cmbOperaciones = new System.Windows.Forms.ComboBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
@@ -48,6 +49,7 @@ namespace tarea_2.__German
 			// 
 			// cmbOperaciones
 			// 
+			this.cmbOperaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
 			this.cmbOperaciones.FormattingEnabled = true;
 			this.cmbOperaciones.Items.AddRange(new object[] {
 									"Suma",
@@ -62,16 +64,20 @@ namespace tarea_2.__German
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-			this.label1.Location = new System.Drawing.Point(59, 48);
+			this.label1.BackColor = System.Drawing.Color.Transparent;
+			this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+			this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+			this.label1.Location = new System.Drawing.Point(59, 46);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(155, 36);
+			this.label1.Size = new System.Drawing.Size(154, 36);
 			this.label1.TabIndex = 1;
 			this.label1.Text = "Operacion:";
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.label2.BackColor = System.Drawing.Color.Transparent;
+			this.label2.Font = new System.Drawing.Font("Impact", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.label2.Location = new System.Drawing.Point(59, 134);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(120, 23);
@@ -80,7 +86,9 @@ namespace tarea_2.__German
 			// 
 			// label3
 			// 
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.label3.BackColor = System.Drawing.Color.Transparent;
+			this.label3.Font = new System.Drawing.Font("Impact", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.label3.Location = new System.Drawing.Point(59, 189);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(120, 23);
@@ -90,6 +98,7 @@ namespace tarea_2.__German
 			// btnCalcular
 			// 
 			this.btnCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+			this.btnCalcular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
 			this.btnCalcular.Location = new System.Drawing.Point(122, 240);
 			this.btnCalcular.Name = "btnCalcular";
 			this.btnCalcular.Size = new System.Drawing.Size(116, 45);
@@ -100,6 +109,7 @@ namespace tarea_2.__German
 			// 
 			// txt1
 			// 
+			this.txt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
 			this.txt1.Location = new System.Drawing.Point(197, 135);
 			this.txt1.Name = "txt1";
 			this.txt1.Size = new System.Drawing.Size(322, 26);
@@ -107,6 +117,7 @@ namespace tarea_2.__German
 			// 
 			// txt2
 			// 
+			this.txt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
 			this.txt2.Location = new System.Drawing.Point(197, 190);
 			this.txt2.Name = "txt2";
 			this.txt2.Size = new System.Drawing.Size(322, 26);
@@ -116,6 +127,7 @@ namespace tarea_2.__German
 			// 
 			this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+			this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
 			this.button1.Location = new System.Drawing.Point(349, 240);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(100, 45);
@@ -129,6 +141,8 @@ namespace tarea_2.__German
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(574, 315);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.txt2);
@@ -138,6 +152,7 @@ namespace tarea_2.__German
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.cmbOperaciones);
+			this.DoubleBuffered = true;
 			this.Name = "MainForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "tarea 2.4 German";
