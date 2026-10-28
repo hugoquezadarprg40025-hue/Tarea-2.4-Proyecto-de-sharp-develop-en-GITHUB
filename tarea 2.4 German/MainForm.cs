@@ -63,6 +63,12 @@ namespace tarea_2.__German
 					R=num1/num2;
 					MessageBox.Show("El reusltado de la Division es: "+R);
 					break;
+					case "Modulo":
+					num1=Convert.ToDouble(txt1.Text);
+					num2=Convert.ToDouble(txt2.Text);
+					R=num1%num2;
+					MessageBox.Show("El reusltado de la Division es: "+R);
+					break;
 				}
 			}
 		}

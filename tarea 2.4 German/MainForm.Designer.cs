@@ -52,7 +52,8 @@ namespace tarea_2.__German
 									"Suma",
 									"Resta",
 									"Multiplicacion",
-									"Division"});
+									"Division",
+									"Modulo"});
 			this.cmbOperaciones.Location = new System.Drawing.Point(235, 52);
 			this.cmbOperaciones.Name = "cmbOperaciones";
 			this.cmbOperaciones.Size = new System.Drawing.Size(284, 28);
