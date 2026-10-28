@@ -72,5 +72,11 @@ namespace tarea_2.__German
 				}
 			}
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form1 x=new Form1();
+			x.ShowDialog();
+		}
 	}
 }

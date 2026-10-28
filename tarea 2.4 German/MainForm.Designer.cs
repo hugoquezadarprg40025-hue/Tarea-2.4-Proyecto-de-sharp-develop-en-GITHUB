@@ -43,6 +43,7 @@ namespace tarea_2.__German
 			this.btnCalcular = new System.Windows.Forms.Button();
 			this.txt1 = new System.Windows.Forms.TextBox();
 			this.txt2 = new System.Windows.Forms.TextBox();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// cmbOperaciones
@@ -89,7 +90,7 @@ namespace tarea_2.__German
 			// btnCalcular
 			// 
 			this.btnCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-			this.btnCalcular.Location = new System.Drawing.Point(235, 240);
+			this.btnCalcular.Location = new System.Drawing.Point(122, 240);
 			this.btnCalcular.Name = "btnCalcular";
 			this.btnCalcular.Size = new System.Drawing.Size(116, 45);
 			this.btnCalcular.TabIndex = 4;
@@ -111,12 +112,25 @@ namespace tarea_2.__German
 			this.txt2.Size = new System.Drawing.Size(322, 26);
 			this.txt2.TabIndex = 6;
 			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+			this.button1.Location = new System.Drawing.Point(349, 240);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(100, 45);
+			this.button1.TabIndex = 7;
+			this.button1.Text = "Formula General";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.ClientSize = new System.Drawing.Size(574, 315);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.txt2);
 			this.Controls.Add(this.txt1);
 			this.Controls.Add(this.btnCalcular);
@@ -130,6 +144,7 @@ namespace tarea_2.__German
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox txt2;
 		private System.Windows.Forms.TextBox txt1;
 		private System.Windows.Forms.Button btnCalcular;
